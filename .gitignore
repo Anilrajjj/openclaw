@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+.env.local
+
+# Node
+node_modules/
+.next/
+
+# OpenClaw runtime (managed separately)
+agents/
+browser/
+completions/
+credentials/
+delivery-queue/
+devices/
+empty_workspace/
+flows/
+identity/
+logs/
+memory/
+tasks/
+telegram/
+tmp_openclaw/
+workspace/
+workspace_backup/
+instances/
+openclaw.json
+openclaw.docker.json
+exec-approvals.json
+update-check.json
+gateway.cmd
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Demo/media
+*.mp4
+
+backend/promptiq.db
+.env
+.env.*
+
+
+frontend/
+.env
