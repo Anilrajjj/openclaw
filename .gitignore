@@ -55,5 +55,4 @@ backend/promptiq.db
 .env.*
 
 
-frontend/
-.env
+
